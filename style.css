@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(151, 233, 96);
+    background-image: url("C:\WebDevlopment\CSS-WebPage-01\Background.jpg")
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -27,8 +27,8 @@ h3 {
     float: left;
     width: 30%;
     height: 400px;
-    padding: .5%;
-    margin: .5%; 
+    margin: 1.0%;
+    padding: 0.5%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -45,5 +45,17 @@ div.division_style:hover {
     float: center;
     margin: 4.5%;
     height: 200px;
+    width: 90%;
+}
+
+.section_2 {
+    text-align: center;
+    color: black;
+    padding: 30px;
+    border: 2px dotted green;
+}
+
+section.position {
+    float: left;
     width: 90%;
 }
