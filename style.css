@@ -22,12 +22,27 @@ h3 {
 }
 
 .division_style{
-    color: white;
-    background-color: rgb(54, 50, 50); 
     border: 1px solid gray;
     position: relative;
     float: left;
     width: 30%;
-    padding: 0.4%;
-    margin: 1%;
+    height: 400px;
+    padding: .5%;
+    margin: .5%;
+    box-shadow: 10px gold;
+}
+
+div.division_style:hover {
+    overflow: visible;
+}
+
+#shadow {
+    box-shadow: 10px red;
+}
+
+.image{
+    float: center;
+    margin: 4.5%;
+    height: 200px;
+    width: 90%;
 }
