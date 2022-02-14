@@ -8,8 +8,15 @@ h3 {
 
 #section_style {
     color: darkgray;
+    border: .5px black solid; 
 }
 
 .division_style{
     color: gray;
+    border: 1px solid gray;
+    position: relative;
+    float: left;
+    width: 30%;
+    padding: .4%;
+    margin: 1%;
 }
