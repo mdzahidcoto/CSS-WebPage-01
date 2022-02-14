@@ -28,8 +28,9 @@ h3 {
     width: 30%;
     height: 400px;
     padding: .5%;
-    margin: .5%;
-    box-shadow: 10px gold;
+    margin: .5%; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 div.division_style:hover {
