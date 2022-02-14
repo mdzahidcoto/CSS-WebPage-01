@@ -1,12 +1,19 @@
 body {
-    background-image: url(../images/C:\WebDevlopment\CSS-WebPage-01\Background.jpg);
+    background-color: rgb(151, 233, 96);
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 h1 {
     color: darkorange;
+    text-align: center;
+    padding-top: 7%;
 }
 
 h3 {
     color: lightcoral;
+    text-align: center;
+    padding: 3% 0%;
 }
 
 #section_style {
@@ -15,7 +22,8 @@ h3 {
 }
 
 .division_style{
-    color: gray;
+    color: white;
+    background-color: rgb(54, 50, 50); 
     border: 1px solid gray;
     position: relative;
     float: left;
