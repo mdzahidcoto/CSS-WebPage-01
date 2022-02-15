@@ -1,8 +1,8 @@
-body {
-    background-image: url("C:\WebDevlopment\CSS-WebPage-01\Background.jpg");
+.body_bg {
+    background-image: url("background.jpg");
     background-color: white;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
 }
 
 h3 {
-    color: lightcoral;
+    color: rgb(230, 153, 11);
     text-align: center;
     padding: 3% 0%;
 }
@@ -23,6 +23,7 @@ h3 {
 }
 
 .division_style{
+    color: white;
     border: 1px solid gray;
     position: relative;
     float: left;
@@ -51,7 +52,7 @@ div.division_style:hover {
 
 .section_2 {
     text-align: center;
-    color: black;
+    color: rgb(223, 216, 206);
     padding: 30px;
     border: 2px dotted green;
 }
