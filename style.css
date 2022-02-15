@@ -1,5 +1,6 @@
 body {
-    background-color: lightyellow;
+    background-image: url("C:\WebDevlopment\CSS-WebPage-01\Background.jpg");
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
 }
