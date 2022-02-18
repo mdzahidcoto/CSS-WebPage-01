@@ -1,13 +1,10 @@
 body {
     font-family: 'Amiri', serif;
-font-family: 'Redressed', 'cursive';
+    font-family: 'Redressed', 'cursive';
 }
 /* Body background*/
 .bg-body {
-    background-image: url("image/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
+    background-image: linear-gradient(90deg, white, rgb(230, 236, 147));
 }
 /*heading setup */
 h1 {
@@ -20,30 +17,23 @@ h1 {
 h3 {
     color: rgb(230, 153, 11);
     text-align: center;
-    padding: 3% 0%;
 }
 /* Section body setup */
 .bg-section {
-    display: flex;
-    float: left;
     background-image: url("image/background1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*division set up one third */
-.one-third-div {
-    width: 30%;
-    padding: 1%;
-    margin: 2%;
-}
-/* Shadow effect */
-.shadow {
+/*Shadow effect */
+.effect-div {
+    text-align: justify;
     box-shadow: 5px 12px 20px gray;
 }
 /* Division image setup */
 .div-img {
-    width: 90%;
-    margin: 4%;
+    width: 95%;
+    height: 200px;
+    margin: 10px;
 }
 /* Image shadow setup */
 .shadow-img {
@@ -52,38 +42,48 @@ h3 {
 /* Footer box section */
 .footer {
     text-align: center;
-    background-color: gray;
     margin: 0;
+    font-size: 0.8em;
 }
-
-/* Media responsive windows */
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
+/* row class setup for responsive */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*='tab-'] {
+    float: left;
+}
+[class*="tab-"] {
+    width: 100%;
   }
-  @media only screen and (min-width: 768px) {
+  
+/* Media responsive windows */
+@media only screen and (min-width: 500px) {
+    /* For tablets: */
+    .tab-s {
+        width: 98%;
+        padding: 1%;
+    }
+  }
+  @media only screen and (min-width: 700px) {
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .tab-m {
+        width: 48.5%;
+        padding: 0.75%;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    .tab-ml {
+        width: 32.33%;
+        padding: 0.5%;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    .tab-l {
+        width: 24.5%;
+        padding: 0.25%;
+    }
   }
